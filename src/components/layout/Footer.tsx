@@ -34,7 +34,7 @@ const Footer = () => {
     { icon: FaFacebook, href: "https://facebook.com", label: "Facebook" },
     { icon: FaInstagram, href: "https://instagram.com", label: "Instagram" },
     { icon: FaLinkedin, href: "https://linkedin.com", label: "LinkedIn" },
-    { icon: FaWhatsapp, href: "https://wa.me/525559876543", label: "WhatsApp" },
+    { icon: FaWhatsapp, href: "https://wa.me/5255500100", label: "WhatsApp" },
   ];
 
   return (
@@ -121,12 +121,12 @@ const Footer = () => {
             <ul className="space-y-4">
               <li>
                 <a
-                  href="tel:+525559876543"
+                  href="tel:+5255500100"
                   className="flex items-start gap-3 text-gray-300 hover:text-primary-400 transition-colors group"
                 >
                   <FaPhone className="text-primary-500 mt-1 group-hover:scale-110 transition-transform" />
                   <span>
-                    +52 555 987 6543
+                    +52 555 000 0100
                     <span className="block text-xs text-gray-400">
                       Lun - Vie: 9:00 - 20:00
                     </span>

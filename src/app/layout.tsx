@@ -76,7 +76,7 @@ export default function RootLayout({
     description:
       "Centro de psicología especializado en terapia individual, de pareja y familiar. Tratamiento de ansiedad, depresión y estrés.",
     url: "https://www.psicologia-integral.com",
-    telephone: "+52-555-987-6543",
+    telephone: "+52-555-000-0100",
     email: "contacto@psicologia-integral.com",
     image: "https://www.psicologia-integral.com/images/logo.jpg",
     priceRange: "$$",

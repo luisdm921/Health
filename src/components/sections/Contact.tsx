@@ -81,15 +81,15 @@ const Contact = () => {
     {
       icon: FaPhone,
       title: "Teléfono",
-      content: "+52 555 987 6543",
-      link: "tel:+525559876543",
+      content: "+52 555 000 0100",
+      link: "tel:+5255500100",
       gradient: "from-green-500 to-emerald-500",
     },
     {
       icon: FaWhatsapp,
       title: "WhatsApp",
-      content: "+52 555 987 6543",
-      link: "https://wa.me/525559876543",
+      content: "+52 555 000 0100",
+      link: "https://wa.me/5255500100",
       gradient: "from-green-400 to-green-600",
     },
     {
@@ -404,7 +404,7 @@ const Contact = () => {
                     contáctanos por WhatsApp.
                   </p>
                   <a
-                    href="https://wa.me/525559876543"
+                    href="https://wa.me/5255500100"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center justify-center gap-3 w-full py-4 bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 rounded-xl font-bold transition-all shadow-lg hover:shadow-xl transform hover:scale-105"
