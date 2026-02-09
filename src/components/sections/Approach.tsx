@@ -19,7 +19,7 @@ const Approach = () => {
           setIsVisible(true);
         }
       },
-      { threshold: 0.2 },
+      { threshold: 0.05, rootMargin: "50px" },
     );
 
     if (ref.current) {
@@ -83,7 +83,7 @@ const Approach = () => {
         {/* Header */}
         <div className="max-w-3xl mx-auto text-center mb-16">
           <div
-            className={`mb-4 transition-all duration-1000 ${
+            className={`mb-4 transition-all duration-700 ${
               isVisible
                 ? "opacity-100 translate-y-0"
                 : "opacity-0 translate-y-10"
@@ -94,7 +94,7 @@ const Approach = () => {
             </span>
           </div>
           <h2
-            className={`text-4xl md:text-5xl font-bold text-slate-800 mb-6 transition-all duration-1000 delay-100 ${
+            className={`text-4xl md:text-5xl font-bold text-slate-800 mb-6 transition-all duration-700 delay-100 ${
               isVisible
                 ? "opacity-100 translate-y-0"
                 : "opacity-0 translate-y-10"
@@ -104,7 +104,7 @@ const Approach = () => {
             <span className="gradient-text block mt-2">Centrada en Ti</span>
           </h2>
           <p
-            className={`text-lg text-slate-600 transition-all duration-1000 delay-200 ${
+            className={`text-lg text-slate-600 transition-all duration-700 delay-200 ${
               isVisible
                 ? "opacity-100 translate-y-0"
                 : "opacity-0 translate-y-10"
@@ -146,7 +146,7 @@ const Approach = () => {
         {/* Process Timeline */}
         <div className="max-w-5xl mx-auto">
           <h3
-            className={`text-3xl font-bold text-center text-slate-800 mb-12 transition-all duration-1000 ${
+            className={`text-3xl font-bold text-center text-slate-800 mb-12 transition-all duration-700 ${
               isVisible
                 ? "opacity-100 translate-y-0"
                 : "opacity-0 translate-y-10"
@@ -210,7 +210,7 @@ const Approach = () => {
 
         {/* Values Section */}
         <div
-          className={`mt-20 bg-gradient-to-br from-slate-50 to-primary-50 rounded-3xl p-8 md:p-12 transition-all duration-1000 ${
+          className={`mt-20 bg-gradient-to-br from-slate-50 to-primary-50 rounded-3xl p-8 md:p-12 transition-all duration-700 ${
             isVisible ? "opacity-100 scale-100" : "opacity-0 scale-95"
           }`}
           style={{ transitionDelay: "1300ms" }}

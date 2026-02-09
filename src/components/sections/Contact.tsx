@@ -34,7 +34,7 @@ const Contact = () => {
           setIsVisible(true);
         }
       },
-      { threshold: 0.2 },
+      { threshold: 0.05, rootMargin: "50px" },
     );
 
     if (ref.current) {
@@ -131,7 +131,7 @@ const Contact = () => {
         {/* Header */}
         <div className="max-w-4xl mx-auto text-center mb-20">
           <div
-            className={`mb-4 transition-all duration-1000 ${
+            className={`mb-4 transition-all duration-700 ${
               isVisible
                 ? "opacity-100 translate-y-0"
                 : "opacity-0 translate-y-10"
@@ -142,7 +142,7 @@ const Contact = () => {
             </span>
           </div>
           <h2
-            className={`text-4xl md:text-5xl font-bold text-slate-800 mb-6 transition-all duration-1000 delay-100 ${
+            className={`text-4xl md:text-5xl font-bold text-slate-800 mb-6 transition-all duration-700 delay-100 ${
               isVisible
                 ? "opacity-100 translate-y-0"
                 : "opacity-0 translate-y-10"
@@ -152,7 +152,7 @@ const Contact = () => {
             <span className="gradient-text block mt-2">Hacia el Bienestar</span>
           </h2>
           <p
-            className={`text-lg text-slate-600 transition-all duration-1000 delay-200 ${
+            className={`text-lg text-slate-600 transition-all duration-700 delay-200 ${
               isVisible
                 ? "opacity-100 translate-y-0"
                 : "opacity-0 translate-y-10"
@@ -202,7 +202,7 @@ const Contact = () => {
           <div className="grid lg:grid-cols-3 gap-8 mb-16">
             {/* Contact Form - Takes 2 columns */}
             <div
-              className={`lg:col-span-2 transition-all duration-1000 ${
+              className={`lg:col-span-2 transition-all duration-700 ${
                 isVisible
                   ? "opacity-100 translate-x-0"
                   : "opacity-0 -translate-x-10"
@@ -353,7 +353,7 @@ const Contact = () => {
 
             {/* Sidebar */}
             <div
-              className={`space-y-6 transition-all duration-1000 ${
+              className={`space-y-6 transition-all duration-700 ${
                 isVisible
                   ? "opacity-100 translate-x-0"
                   : "opacity-0 translate-x-10"
@@ -419,7 +419,7 @@ const Contact = () => {
 
           {/* Google Maps */}
           <div
-            className={`transition-all duration-1000 ${
+            className={`transition-all duration-700 ${
               isVisible
                 ? "opacity-100 translate-y-0"
                 : "opacity-0 translate-y-10"

@@ -72,7 +72,7 @@ const Specialties = () => {
           setIsVisible(true);
         }
       },
-      { threshold: 0.1 },
+      { threshold: 0.05, rootMargin: "50px" },
     );
 
     if (ref.current) {
@@ -98,7 +98,7 @@ const Specialties = () => {
         {/* Header */}
         <div className="max-w-3xl mx-auto text-center mb-16">
           <div
-            className={`mb-4 transition-all duration-1000 ${
+            className={`mb-4 transition-all duration-700 ${
               isVisible
                 ? "opacity-100 translate-y-0"
                 : "opacity-0 translate-y-10"
@@ -109,7 +109,7 @@ const Specialties = () => {
             </span>
           </div>
           <h2
-            className={`text-4xl md:text-5xl font-bold text-slate-800 mb-6 transition-all duration-1000 delay-100 ${
+            className={`text-4xl md:text-5xl font-bold text-slate-800 mb-6 transition-all duration-700 delay-100 ${
               isVisible
                 ? "opacity-100 translate-y-0"
                 : "opacity-0 translate-y-10"
@@ -121,7 +121,7 @@ const Specialties = () => {
             </span>
           </h2>
           <p
-            className={`text-lg text-slate-600 transition-all duration-1000 delay-200 ${
+            className={`text-lg text-slate-600 transition-all duration-700 delay-200 ${
               isVisible
                 ? "opacity-100 translate-y-0"
                 : "opacity-0 translate-y-10"
@@ -193,7 +193,7 @@ const Specialties = () => {
 
         {/* Bottom Info Card */}
         <div
-          className={`mt-16 max-w-4xl mx-auto transition-all duration-1000 ${
+          className={`mt-16 max-w-4xl mx-auto transition-all duration-700 ${
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
           }`}
           style={{ transitionDelay: "900ms" }}

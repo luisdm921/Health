@@ -14,7 +14,7 @@ const About = () => {
           setIsVisible(true);
         }
       },
-      { threshold: 0.2 },
+      { threshold: 0.05, rootMargin: "50px" },
     );
 
     if (ref.current) {
@@ -54,7 +54,7 @@ const About = () => {
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             {/* Image Side */}
             <div
-              className={`relative transition-all duration-1000 ${
+              className={`relative transition-all duration-700 ${
                 isVisible
                   ? "opacity-100 translate-x-0"
                   : "opacity-0 -translate-x-10"
@@ -75,7 +75,7 @@ const About = () => {
 
             {/* Content Side */}
             <div
-              className={`transition-all duration-1000 delay-200 ${
+              className={`transition-all duration-700 delay-200 ${
                 isVisible
                   ? "opacity-100 translate-x-0"
                   : "opacity-0 translate-x-10"
